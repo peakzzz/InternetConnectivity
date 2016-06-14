@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+<style>
+#status {
+  position: fixed;
+  width: 100%;
+  font: bold 1em sans-serif;
+  color: #FFF;
+  padding: 0.5em;
+}
+
+#log {
+  padding: 2.5em 0.5em 0.5em;
+  font: 1em sans-serif;
+}
+
+.online {
+  background: green;
+  
+  		font-weight: bold;
+		font-size: 250%;
+		text-align: center;
+		width: 1275px;
+		height: 50px;
+		
+}
+
+.offline {
+  background: red;
+  
+ 		font-weight: bold;
+		font-size: 250%;
+		text-align: center;
+		width: 1275px;
+		height: 50px;
+}
+</style>
+
